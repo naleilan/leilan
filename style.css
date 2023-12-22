@@ -52,6 +52,11 @@ nav {
 
 .profile-img {
   width: 15%;
+  transition: all 0.3s;
+}
+
+.profile-img:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
 
 .title {
@@ -66,6 +71,15 @@ nav {
 
 /* .social-meida {
 } */
+
+.icons {
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icons:hover {
+  transform: rotate(360deg) scale(1.2);
+}
 
 /* NOTE: box part */
 
