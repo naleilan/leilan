@@ -7,9 +7,60 @@
     <title>Leilan Naeimi</title>
   </head>
   <body>
+    <div class="top">
+      <nav>
+        <div class="toggle">
+          <span class="moon">🌙</span>
+          <path
+            d="M13 21C13 15.477 8.523 11 3 11M21 11C21 15.477 16.523 20 11 20"
+          ></path>
+
+          <input type="checkbox" id="toggle-switch" />
+          <label for="toggle-switch"
+            ><span class="screen-reader-text">Toggle Color Scheme</span></label
+          >
+          <span class="sun">☀️</span>
+        </div>
+      </nav>
+
+      <div class="profile">
+        <img
+          class="profile-img"
+          id="spinningLogo"
+          src="img/profile.jpg"
+          alt="profile-picture"
+        />
+      </div>
+
+      <div class="title">
+        <h1>
+          Hi there
+          <span class="hi-empji">👋</span>
+        </h1>
+        <p class="intro">I'm Leilan, a Full Stack Web Developer</p>
+      </div>
+
+      <div class="social-meida">
+        <a href="https://www.linkedin.com/in/leilannaeimi" target="_blank">
+          <img src="img/linkedin.svg" alt="Linkedin" width="35" class="icons"
+        /></a>
+        <a target="_blank" href="https://twitter.com/NaLeilan">
+          <img src="img/twitter.svg" alt="twitter" width="40" class="icons"
+        /></a>
+        <a href="https://github.com/leilannaeimi" target="_blank">
+          <img src="img/github.svg" alt="github" width="35" class="icons"
+        /></a>
+        <a target="_blank" href="#"
+          ><img src="img/gmail1.svg" alt="gmail" width="40" class="icons"
+        /></a>
+        <a target="#" href=""
+          ><img src="img/cv.svg" alt="cv" width="40" class="icons"
+        /></a>
+      </div>
+    </div>
     <section class="boxes">
       <div class="box-right">
-        <a class="box" href="/bio">
+        <a class="box" href="src/bio.html">
           <h2>Biography</h2>
           <p>Find in-depth information about Leilan Naeimi</p>
         </a>
@@ -40,6 +91,7 @@
         >
       </p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
-  <script src="script.js"></script>
 </html>
